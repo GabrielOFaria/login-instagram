@@ -1,0 +1,56 @@
+/* Left */
+.container_left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    height: 700px;
+    width: 430px;
+    background-image: url(../img/home-phones.png);
+    background-repeat: no-repeat;
+}
+
+.left > .img__cell {
+    position: relative;
+    width: 250px;
+    height: 538.84px;
+    top: 26px;
+    left: 156px;
+}
+
+
+/* Right */
+
+.container_right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    width: 350px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 40px;
+    margin: 20px;
+}
+
+.img__cell-right{
+    margin: auto;
+    width: 200px;
+    height: 70px;
+}
+
+/* Input */
+
+input {
+    all: unset;
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 10px;
+}

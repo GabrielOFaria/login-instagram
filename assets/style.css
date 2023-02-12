@@ -1,0 +1,19 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color */
+    --white: #FAFAFA;
+
+    /* font */
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+body {
+    background: var(--white);  
+    font-family: var(--font);
+    height: 100vh; 
+}
