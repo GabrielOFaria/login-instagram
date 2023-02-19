@@ -7,6 +7,11 @@
 :root {
     /* Color */
     --white: #FAFAFA;
+    --gray: #8E8E8E;
+    --gray1: #DBDBDB;
+    --blue-face: #385185;
+    --blue-password: #0070B8;
+    --blue-sign: #A5A2F6;
 
     /* font */
     --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -17,3 +22,4 @@ body {
     font-family: var(--font);
     height: 100vh; 
 }
+

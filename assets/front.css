@@ -1,4 +1,4 @@
-/* Left */
+/* Left side*/
 .container_left {
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
 }
 
-.left > .img__cell {
+.left>.img__cell {
     position: relative;
     width: 250px;
     height: 538.84px;
@@ -24,7 +24,7 @@
 }
 
 
-/* Right */
+/* Right side */
 
 .container_right {
     display: flex;
@@ -35,13 +35,13 @@
     justify-content: center;
     width: 350px;
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid var(--gray1);
     padding: 40px;
     margin: 20px;
 }
 
-.img__cell-right{
-    margin: auto;
+.img__cell-right {
+    margin: 0 34px 30px;
     width: 200px;
     height: 70px;
 }
@@ -53,4 +53,108 @@ input {
     padding: 10px;
     border: 1px solid rgb(219, 219, 219);
     margin-top: 10px;
+}
+
+:placeholder-shown {
+    font-size: 12px;
+}
+
+/* Button */
+
+.button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 149, 246, 0.3);
+    color: var(--white);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* word OR */
+
+.container__apps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.or {
+    background-color: var(--gray);
+    height: 1px;
+    width: 140px;
+}
+
+.app_or {
+    font-weight: 600;
+    color: var(--gray);
+    padding: 0px 20px 0px 20px;
+}
+
+.facebook__login {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--blue-face);
+}
+
+.facebook__login-img {
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 1px;
+    transform: scale(1.1);
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+}
+
+/* forgot_password */
+
+.forgot_password {
+    color: var(--blue-password);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+/* account */
+
+.account {
+    background-color: white;
+    border: 1px solid var(--gray1);
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.signup {
+    color: var(--blue-sign);
+    font-weight: 600;
+}
+
+.getapp {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* img apps */
+
+.img_apps{
+    text-align: center;
+}
+
+.img_microsoft {
+    width: 150px;
+    height: 45px;
+}
+
+.img_playstore {
+    width: 150px;
+    height: 45px;
 }
