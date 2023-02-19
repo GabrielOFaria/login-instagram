@@ -15,7 +15,7 @@
     width: 430px;
     background-image: url(../img/home-phones.png);
     background-repeat: no-repeat;
-    transform: scale(1.125);
+    transform: scale(1.0);
     margin-right: 40px;
 }
 
@@ -42,7 +42,7 @@
     border: 1px solid var(--gray1);
     padding: 40px;
     margin: 20px;
-    margin-top: -124px;
+    margin-top: -40px;
 }
 
 .img__cell-right {
@@ -74,6 +74,7 @@ input {
     color: var(--white);
     margin-top: 10px;
     padding: 10px;
+    cursor: pointer;
 }
 
 /* word OR */
