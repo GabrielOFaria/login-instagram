@@ -6,6 +6,8 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin-top: 60px;
 }
 
 .left {
@@ -13,6 +15,8 @@
     width: 430px;
     background-image: url(../img/home-phones.png);
     background-repeat: no-repeat;
+    transform: scale(1.125);
+    margin-right: 40px;
 }
 
 .left>.img__cell {
@@ -33,11 +37,12 @@
     align-content: center;
     align-items: stretch;
     justify-content: center;
-    width: 350px;
+    width: 398px;
     background-color: white;
     border: 1px solid var(--gray1);
     padding: 40px;
     margin: 20px;
+    margin-top: -124px;
 }
 
 .img__cell-right {
@@ -146,8 +151,9 @@ input {
 
 /* img apps */
 
-.img_apps{
+.img_apps {
     text-align: center;
+    margin-top: 20px;
 }
 
 .img_microsoft {
@@ -158,4 +164,34 @@ input {
 .img_playstore {
     width: 150px;
     height: 45px;
+}
+
+.footer {
+    height: 10%;
+}
+
+.spam_footer {
+    display: flex;
+    color: var(--gray2);
+    font-size: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto 108px;
+    text-align: center;
+    padding: 10px;
+}
+
+.spam_footer>spam {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.div {
+    text-align: center;
+    padding: 20px;
 }
