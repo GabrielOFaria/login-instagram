@@ -20,7 +20,8 @@ A recreation of the Instagram login page focusing on **UI/UX** and responsive de
 ---
 
 ## 📸 Preview
-(Add a screenshot or GIF of your project here)
+<img width="934" height="633" alt="image" src="https://github.com/user-attachments/assets/b3abd6a1-5a46-4444-8a7b-60966dcdb186" />
+
 
 ---
 
